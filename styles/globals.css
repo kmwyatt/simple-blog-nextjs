@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -7,7 +11,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: royalblue;
   text-decoration: none;
 }
 
@@ -20,17 +24,17 @@ img {
   height: auto;
 }
 
-h1,
-h2,
-p,
-ul {
-  margin: 0;
-}
+/*h1,*/
+/*h2,*/
+/*p,*/
+/*ul {*/
+/*  margin: 0;*/
+/*}*/
 
-ul {
-  padding: 0;
-  list-style: none;
-}
+/*ul {*/
+/*  padding: 0;*/
+/*  list-style: none;*/
+/*}*/
 
 button {
   padding: 0.5rem 1rem;
